@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device.width, inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" conent="ie-edge">
+        <link rel="stylesheet" href="mail.css">
+        <title>Mail Archiver</title>
+    </head>
+    <body>
+        <div id="searchBar">
+          <span id="dateSpan">
+            <input type="date" required="required"  id=searchDate1>  
+            <input type="date" required="required"  id=searchDate2>
+            <button type="submit" id="dateSearchBtn" onclick="searchEmail()"></button>
+        </span> 
+        </div>
+
+        <div id="searchResults">
+            <p id="searchResultslabel">Results:</p>
+            <p id="searchResultNo">0</p>
+            <p id="searchResultsuffix">mail(s)</p>
+        </div>
+
+        <div id="emailBox">
+            <a href="#">
+            <div id="emailTable">
+            <table id="table">
+                
+                 <tr>
+                    <th>Id</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Subject</th>
+                    <th>    </th>
+                    <th>Date</th>  
+                </tr>
+           
+            <div class="tableContents">
+                
+            </div>
+            </table>
+            </a>
+            </div>
+        </div>
+    
+
+
+<script src="mail.js"></script>
+
+
+    </body>
+</html>

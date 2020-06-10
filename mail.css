@@ -12,7 +12,7 @@ body{
 #searchDate2{
     outline: none;
     height:35px;
-    width:260px;
+    width:300px;
     background-image: url(files/icon_calender.svg);
     background-repeat:no-repeat;
     background-size: 23px;
@@ -28,19 +28,19 @@ body{
 #searchDate1{
     outline:none;
     height:35px;
-    width:110px;
+    width:125px;
     border:none;
     border-right:solid 1px lightgrey;
     position: relative;
     background-color: transparent;
-    left:155px;
+    left:165px;
     
 }
 
 #dateSearchBtn{
     position: relative;
     top:11px;
-    right:8px;
+    right:7px;
     background-image: url(files/icon_search.svg);
     background-repeat:no-repeat;
     background-position: center;
